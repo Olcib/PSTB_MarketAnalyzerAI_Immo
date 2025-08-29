@@ -1,0 +1,42 @@
+{
+  "model_type": "LightGBM",
+  "features": [
+    "longitude",
+    "accommodates",
+    "bathrooms",
+    "bathrooms_text",
+    "bedrooms",
+    "beds",
+    "availability_30",
+    "availability_365",
+    "availability_eoy",
+    "estimated_revenue_l365d",
+    "accommodates_rolling_7_mean",
+    "accommodates_diff_1",
+    "accommodates_diff_7",
+    "bathrooms_rolling_7_mean",
+    "bathrooms_rolling_7_std",
+    "bathrooms_diff_1",
+    "bathrooms_diff_7",
+    "bedrooms_rolling_7_mean",
+    "bedrooms_diff_1",
+    "bedrooms_diff_7",
+    "beds_rolling_7_mean",
+    "beds_diff_1",
+    "beds_diff_7",
+    "price_rolling_7_mean",
+    "price_rolling_7_std",
+    "price_diff_1",
+    "price_diff_7",
+    "estimated_revenue_l365d_rolling_7_std",
+    "estimated_revenue_l365d_diff_1",
+    "estimated_revenue_l365d_diff_7"
+  ],
+  "performance": {
+    "r2_test": 0.9663995168599928,
+    "rmse_test": 40.8145404842741
+  },
+  "training_date": "2025-08-29T10:47:43.013798",
+  "training_samples": 53455,
+  "feature_count": 30
+}

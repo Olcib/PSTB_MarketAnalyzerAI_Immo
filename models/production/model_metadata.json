@@ -1,0 +1,23 @@
+{
+  "features": [
+    "review_scores_location_lag_1",
+    "latitude",
+    "day_of_week",
+    "review_scores_communication_lag_7",
+    "occupancy_rate",
+    "review_scores_rating_lag_7",
+    "nb_amenities",
+    "neighbourhood_cleansed",
+    "review_scores_cleanliness_lag_7",
+    "month",
+    "longitude",
+    "review_scores_communication_rolling_7_mean",
+    "review_scores_rating_rolling_7_mean",
+    "city_encoded"
+  ],
+  "model_type_regression": "LightGBM",
+  "model_type_classification": "RandomForest",
+  "training_date": "2025-08-29T09:57:53.578875",
+  "training_samples": 57273,
+  "feature_count": 14
+}
