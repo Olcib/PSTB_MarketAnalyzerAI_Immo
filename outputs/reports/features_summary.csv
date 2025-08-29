@@ -1,0 +1,3 @@
+city,listings_path,calendar_path,reviews_path,listings_rows,calendar_rows,reviews_rows,listings_sep,calendar_sep,reviews_sep,created_artificial_listing_id,computed_occupancy,computed_avg_price,computed_revenue,computed_sentiment,saved_month_occ,features_rows,features_cols,status,error
+seattle,data\processed\seattle\listings.csv,data\processed\seattle\calendar.csv,data\processed\seattle\reviews.csv,3818,1393570,19853,",",",",",",True,True,True,True,False,True,3818,41,ok,
+paris,data\processed\paris\listings.csv,data\processed\paris\calendar.csv,data\processed\paris\reviews.csv,7867,0,7932,",",",",",",False,False,False,False,False,False,7867,81,ok,
