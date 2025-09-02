@@ -1,0 +1,6 @@
+streamlit>=1.37
+python-dotenv>=1.0
+mcp>=1.1.0
+mcp-use>=0.1.7
+langchain>=0.2
+langchain-anthropic>=0.1.20
